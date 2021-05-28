@@ -10,6 +10,7 @@ Projeto desenvolvido durante a DevWeek Santander
     - [x] instalação e configuração do Java SDK
     - [x] Instalação  Intellij IDEA
     - [x] Configuração Intellij IDEA
+    
    ####Aula #2: Criando o projeto base
    
  - [x] Criando o projeto base
@@ -32,10 +33,18 @@ Projeto desenvolvido durante a DevWeek Santander
   
    ####Aula #5: Configurando o Banco de Dados
 
- - [ ] Configurando Banco de dados
-    - [ ] Adição do módulo Spring Data JPA
-    - [ ] Configuração do banco de dados (PostgreeSQL)
-    - [ ] Mapeamento das entidades
-    - [ ] Criando repository
+ - [x] Configurando Banco de dados
+    - [x] Adição do módulo Spring Data JPA
+    - [x] Configuração do banco de dados (PostgreeSQL)
+    - [x] Mapeamento das entidades
+    - [x] Criando repository
 
-   ####Aula #6: Comming soon
+   ####Aula #6: Criando camada service e exception handlers
+ 
+ - [x] Criando camada service e exception handlers
+    - [ ] Criação da camada service
+    - [ ] Criação da Mapper de conversão
+    - [ ] Criação das Exceptions Handlers (Manipuladores de exceções)
+
+   ####Aula #7: Next lesson
+   
