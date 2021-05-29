@@ -1,6 +1,8 @@
 # AppSantander
 Projeto desenvolvido durante a DevWeek Santander
 
+Author: [Will Freitas](https://github.com/WdvOps)
+
 ### Tela de cotações banco Santander
 
 #### Aula #1: Configurando ambiente - Backend
