@@ -1,6 +1,5 @@
 package com.project.appSantander.controller;
 
-
 import com.project.appSantander.model.dto.StockDTO;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -18,12 +17,11 @@ public class StockController {
     @PostMapping(consumes = MediaType.APPLICATION_PROBLEM_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE )
     public ResponseEntity<StockDTO> save(@Valid @RequestBody StockDTO dto) {
         return ResponseEntity.ok(dto);
-
     }
+
     @PutMapping(consumes = MediaType.APPLICATION_PROBLEM_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE )
     public ResponseEntity<StockDTO> update(@Valid @RequestBody StockDTO dto) {
         return ResponseEntity.ok(dto);
-
     }
 
     @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
@@ -36,10 +34,7 @@ public class StockController {
         stock1.setVariation(10D);
         stock1.setDate(LocalDate.now());
 
-
-
         return ResponseEntity.ok(list);
-
     }
 
     @GetMapping(value = "/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
@@ -66,5 +61,4 @@ public class StockController {
 
         return  ResponseEntity.ok(dtoSelect);
     }
-
 }
