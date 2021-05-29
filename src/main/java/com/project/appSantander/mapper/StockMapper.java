@@ -1,6 +1,5 @@
 package com.project.appSantander.mapper;
 
-
 import com.project.appSantander.model.Stock;
 import com.project.appSantander.model.dto.StockDTO;
 import org.springframework.stereotype.Component;
@@ -18,7 +17,6 @@ public class StockMapper {
         return stock;
     }
 
-
     public StockDTO toDto(Stock stock) {
          StockDTO dto = new StockDTO();
          dto.setId(stock.getId());
@@ -27,7 +25,5 @@ public class StockMapper {
          dto.setVariation(stock.getVariation());
          dto.setDate(stock.getDate());
          return dto;
-
     }
-
 }

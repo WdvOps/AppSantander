@@ -20,9 +20,7 @@ public class StockController {
     private StockService service;
 
     @PostMapping(consumes = MediaType.APPLICATION_PROBLEM_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE )
-    public ResponseEntity<StockDTO> save(@Valid @RequestBody StockDTO dto) {
-        return ResponseEntity.ok(service.save(dto));
-    }
+    public ResponseEntity<StockDTO> save(@Valid @RequestBody StockDTO dto) {return ResponseEntity.ok(service.save(dto));}
 
     @PutMapping(consumes = MediaType.APPLICATION_PROBLEM_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE )
     public ResponseEntity<StockDTO> update(@Valid @RequestBody StockDTO dto) {
