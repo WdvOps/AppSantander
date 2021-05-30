@@ -43,8 +43,15 @@ Author: [Will Freitas](https://github.com/WdvOps)
 #### Aula #6: Criando camada service e exception handlers
 
  - [x] Criando camada service e exception handlers
- - [ ] Criação da camada service
- - [ ] Criação da Mapper de conversão
- - [ ] Criação das Exceptions Handlers (Manipuladores de exceções)
+ - [x] Criação da camada service
+ - [x] Criação da Mapper de conversão
+ - [x] Criação das Exceptions Handlers (Manipuladores de exceções)
+
+#### Aula #7: Finalizando BackEnd
+
+- [ ] Criando método Create
+- [ ] Criação método Update
+- [ ] Criação da Delete
 
 #### Aula #7: Next lesson
+ Cooming soon
