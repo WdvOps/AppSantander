@@ -1,9 +1,11 @@
 package com.project.appSantander.mapper;
 
-
 import com.project.appSantander.model.Stock;
 import com.project.appSantander.model.dto.StockDTO;
 import org.springframework.stereotype.Component;
+
+import java.util.List;
+import java.util.stream.Collectors;
 
 @Component
 public class StockMapper {
@@ -18,7 +20,6 @@ public class StockMapper {
         return stock;
     }
 
-
     public StockDTO toDto(Stock stock) {
          StockDTO dto = new StockDTO();
          dto.setId(stock.getId());
@@ -27,7 +28,9 @@ public class StockMapper {
          dto.setVariation(stock.getVariation());
          dto.setDate(stock.getDate());
          return dto;
-
     }
 
+    public List<StockDTO> toDto(List<Stock> listStock) {
+        return listStock.stream().map(this::toDto).collect(Collectors.toList());
+    }
 }

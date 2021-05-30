@@ -10,7 +10,7 @@ public class Stock {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
-    private long id;
+    private Long id;
 
     @Column(name = "name")
     private String name;
@@ -19,16 +19,16 @@ public class Stock {
     private Double price;
 
     @Column(name = "variation")
-    private double variation;
+    private Double variation;
 
     @Column(name = "date")
     private LocalDate date;
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -48,7 +48,7 @@ public class Stock {
         this.price = price;
     }
 
-    public double getVariation() {
+    public Double getVariation() {
         return variation;
     }
 
