@@ -47,12 +47,16 @@ Author: [Will Freitas](https://github.com/WdvOps)
  - [x] Criação da Mapper de conversão
  - [x] Criação das Exceptions Handlers (Manipuladores de exceções)
 
-#### Aula #7: Finalizando BackEnd
+#### Aula #7: Criando endpoints 
 
-- [x] Criando método CREATE
-- [ ] Criação método READY
-- [x] Criação método UPDADE
-- [ ] Criação da DELETE
+- [x] Criação do método POST
+- [x] Criação do método PUT
+- [x] Criação do método UPDADE
+- [x] Criação do método DELETE
+- [x] Criação dos métodos GET/GET by Id/GET by Today
 
-#### Aula #7: Next lesson
- Cooming soon
+#### Aula #7: Publicação na nuvem / Finalizando o Backend
+
+- [ ] Criação/alimentação de repositório no GitHub
+- [ ] Versionamento do código fonte
+- [ ] Publicação em cloud(HEROKU)/Deploy
