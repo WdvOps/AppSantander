@@ -49,9 +49,10 @@ Author: [Will Freitas](https://github.com/WdvOps)
 
 #### Aula #7: Finalizando BackEnd
 
-- [ ] Criando método Create
-- [ ] Criação método Update
-- [ ] Criação da Delete
+- [x] Criando método CREATE
+- [ ] Criação método READY
+- [x] Criação método UPDADE
+- [ ] Criação da DELETE
 
 #### Aula #7: Next lesson
  Cooming soon

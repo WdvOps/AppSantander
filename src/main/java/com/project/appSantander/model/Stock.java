@@ -19,7 +19,7 @@ public class Stock {
     private Double price;
 
     @Column(name = "variation")
-    private double variation;
+    private Double variation;
 
     @Column(name = "date")
     private LocalDate date;
@@ -48,7 +48,7 @@ public class Stock {
         this.price = price;
     }
 
-    public double getVariation() {
+    public Double getVariation() {
         return variation;
     }
 
