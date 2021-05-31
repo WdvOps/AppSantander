@@ -55,8 +55,8 @@ Author: [Will Freitas](https://github.com/WdvOps)
 - [x] Criação do método DELETE
 - [x] Criação dos métodos GET/GET by Id/GET by Today
 
-#### Aula #7: Publicação na nuvem / Finalizando o Backend
+#### Aula #8: Publicação na nuvem / Finalizando o Backend
 
-- [ ] Criação/alimentação de repositório no GitHub
-- [ ] Versionamento do código fonte
-- [ ] Publicação em cloud(HEROKU)/Deploy
+- [x] Criação/alimentação de repositório no GitHub
+- [x] Versionamento do código fonte
+- [x] Publicação em cloud(HEROKU)/Deploy
